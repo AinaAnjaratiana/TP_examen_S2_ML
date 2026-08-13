@@ -1,6 +1,9 @@
 # mAIntenance & Assistance
 
-Prototype d'assistant intelligent de support informatique — Hackathon AI Engineering & Machine Learning, ISPM.
+ANDRIANJOHANY Liantsoa Nomban'Ny Avo,IGGLIA5 N 07
+ANDRIANANDRASANA Finiaina,IGGLIA5 N 43
+RAKOTOMALALA Aina Anjaratiana, IGGLIA5 N 30
+RAHARINAIVO Faramampionona, IGGLIA5 N 52
 
 > Comprendre. Diagnostiquer. Assister. Résoudre.
 
