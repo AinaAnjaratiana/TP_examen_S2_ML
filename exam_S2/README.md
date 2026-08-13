@@ -12,15 +12,7 @@ RAHARINAIVO Faramampionona, IGGLIA5 N 52
 ```bash
 pip install -r requirements.txt --break-system-packages
 uvicorn app.main:app --reload
-```
 
-Puis ouvrir : http://127.0.0.1:8000/ (interface assistant) et http://127.0.0.1:8000/dashboard.html (observabilité).
-
-Documentation API interactive (générée par FastAPI) : http://127.0.0.1:8000/docs
-
-Lancer le jeu de tests des 4 scénarios obligatoires :
-
-```bash
 python3 tests/test_scenarios.py
 ```
 
