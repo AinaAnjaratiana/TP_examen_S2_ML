@@ -1,0 +1,5 @@
+[
+  {"id": 1, "nom": "Paul Andria", "service": "Comptabilité", "email": "paul.andria@ispm.mg"},
+  {"id": 2, "nom": "Jean Rakoto", "service": "Marketing", "email": "jean.rakoto@ispm.mg"},
+  {"id": 3, "nom": "Marie Rabe", "service": "Ressources Humaines", "email": "marie.rabe@ispm.mg"}
+]

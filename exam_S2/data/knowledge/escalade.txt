@@ -1,0 +1,5 @@
+Procédure d'escalade générale
+Un ticket doit être escaladé vers un technicien lorsque la confiance de l'assistant est insuffisante, lorsque l'incident est classé critique, lorsqu'il touche plusieurs utilisateurs simultanément, ou lorsqu'une action sensible comme une réinitialisation de mot de passe, une modification de droits ou un incident de sécurité est nécessaire.
+
+Escalade vers l'équipe réseau
+Les incidents réseau touchant un bâtiment entier ou un service complet doivent être escaladés en priorité haute vers l'équipe réseau, avec mention de l'incident actif correspondant s'il existe déjà.

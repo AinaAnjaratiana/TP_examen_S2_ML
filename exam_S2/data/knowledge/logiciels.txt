@@ -1,0 +1,8 @@
+Application qui ne démarre plus
+Vérifier que l'application est à jour, redémarrer le poste, puis réinstaller l'application si le problème persiste. Consulter les journaux d'erreurs de l'application pour identifier un composant manquant.
+
+Logiciel qui plante régulièrement
+Vérifier la compatibilité de la version installée avec le système d'exploitation, et vérifier s'il existe un correctif publié par l'éditeur. Documenter les circonstances exactes de chaque plantage.
+
+Mise à jour logicielle échouée
+Vérifier l'espace disque disponible, la connexion réseau au moment de la mise à jour, et relancer la mise à jour en dehors des heures de forte charge réseau.

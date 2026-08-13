@@ -1,0 +1,8 @@
+Mot de passe oublié
+Si l'utilisateur ne se souvient plus de son mot de passe, demandez-lui son identifiant puis envoyez un lien de réinitialisation à son adresse professionnelle enregistrée. Ne communiquez jamais un mot de passe par téléphone ou par courriel. La réinitialisation d'un mot de passe est une action sensible qui doit toujours être validée par un technicien habilité avant exécution.
+
+Compte verrouillé après plusieurs tentatives
+Un compte est automatiquement verrouillé après cinq tentatives de connexion échouées. Le déverrouillage nécessite une vérification d'identité, comme une question de sécurité ou une confirmation par un responsable, avant toute action. Le technicien doit consigner la raison du verrouillage avant de déverrouiller le compte.
+
+Authentification à deux facteurs
+Si l'utilisateur ne reçoit plus le code de validation, vérifier que le numéro de téléphone enregistré est à jour et que l'application d'authentification est correctement installée. En dernier recours, un code de secours peut être généré par un administrateur, après validation humaine.

@@ -1,0 +1,99 @@
+```html
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Observabilité — mAIntenance &amp; Assistance</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+
+<body>
+
+<header class="header-principal">
+
+    <div class="header-contenu">
+
+        <div class="logo-zone">
+
+            <div class="logo-icon">IT</div>
+
+            <div>
+
+                <h1>Journal d'observabilité</h1>
+
+                <p>
+                    Traces des dernières requêtes traitées par l'agent :
+                    entrées, appels d'outils, latences, sorties
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <nav>
+
+            <a href="index.html">
+                <span class="nav-icon">⌂</span>
+                Assistant
+            </a>
+
+            <a href="dashboard.html" class="actif">
+                <span class="nav-icon">◫</span>
+                Observabilité
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+
+    <section class="formulaire dashboard-toolbar">
+
+        <div>
+
+            <span class="section-kicker">SUPERVISION</span>
+
+            <h2>Journal d'observabilité</h2>
+
+        </div>
+
+
+        <div class="toolbar-actions">
+
+            <span id="resume-traces" class="resume-traces"></span>
+
+            <button
+                type="button"
+                class="btn-principal btn-refresh"
+                onclick="chargerTraces()"
+            >
+                <span>↻</span>
+                Rafraîchir
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <section id="liste-traces"></section>
+
+</main>
+
+
+<script src="dashboard.js"></script>
+
+</body>
+
+</html>
+```

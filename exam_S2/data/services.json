@@ -1,0 +1,7 @@
+[
+  {"nom": "Support informatique", "etat": "operationnel"},
+  {"nom": "Équipe réseau", "etat": "operationnel"},
+  {"nom": "Équipe sécurité", "etat": "operationnel"},
+  {"nom": "Messagerie", "etat": "degrade"},
+  {"nom": "Serveur de fichiers", "etat": "operationnel"}
+]

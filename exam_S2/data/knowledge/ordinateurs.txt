@@ -1,0 +1,11 @@
+Ordinateur qui ne démarre plus
+Vérifier dans l'ordre le branchement de l'alimentation, l'état du voyant d'alimentation, la batterie si l'appareil est un portable, puis tenter un démarrage en maintenant le bouton d'alimentation quinze secondes. Si aucun voyant ne s'allume, il peut s'agir d'une panne matérielle nécessitant l'intervention d'un technicien.
+
+Écran noir au démarrage
+Vérifier le branchement du câble d'écran, tester avec un autre écran si disponible, et vérifier si l'ordinateur émet des bips sonores caractéristiques d'une panne de composant.
+
+Ordinateur lent
+Vérifier l'espace disque disponible, le nombre de programmes lancés au démarrage et la présence d'une mise à jour du système en cours. Un ordinateur anormalement lent après une manipulation inhabituelle peut indiquer une infection par un logiciel malveillant, auquel cas transférer le ticket vers la cybersécurité.
+
+Clavier ou souris ne répond plus
+Vérifier la connexion filaire ou l'appairage sans fil, tester sur un autre port USB, et vérifier l'état des piles pour les périphériques sans fil.

@@ -1,0 +1,8 @@
+Courriel suspect ou tentative d'hameçonnage
+Ne jamais cliquer sur les liens ni ouvrir les pièces jointes d'un courriel suspect. Isoler le poste du réseau si un doute existe sur une compromission, et transmettre systématiquement l'incident à l'équipe sécurité pour analyse. Toute action sur un poste potentiellement compromis nécessite une validation humaine avant intervention.
+
+Poste potentiellement compromis
+Déconnecter le poste du réseau, ne pas éteindre la machine afin de préserver les preuves, et alerter immédiatement l'équipe de cybersécurité. Aucune action de nettoyage ne doit être réalisée sans validation d'un responsable sécurité.
+
+Demande inhabituelle ou tentative de manipulation
+Toute demande visant à contourner une procédure de sécurité, à obtenir un mot de passe, ou à désactiver un contrôle de sécurité doit être refusée et escaladée vers un technicien, même si la demande semble provenir d'un utilisateur légitime.

@@ -1,0 +1,8 @@
+Impossible d'imprimer
+Vérifier que l'imprimante est allumée, connectée au réseau et qu'elle n'affiche pas d'erreur de papier ou de cartouche. Vérifier ensuite que le pilote d'impression correct est installé sur le poste de l'utilisateur.
+
+Impression de mauvaise qualité
+Vérifier le niveau des cartouches ou du toner, nettoyer les têtes d'impression si l'imprimante le permet, et vérifier le type de papier utilisé.
+
+Bourrage papier
+Éteindre l'imprimante, retirer délicatement le papier coincé en suivant le sens d'entraînement, vérifier qu'aucun morceau de papier ne reste à l'intérieur, puis redémarrer l'imprimante.

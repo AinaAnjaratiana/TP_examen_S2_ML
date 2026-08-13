@@ -1,0 +1,5 @@
+[
+  {"id": 1, "utilisateur_id": 1, "type": "Ordinateur portable", "modele": "Dell Latitude 5420", "etat": "actif"},
+  {"id": 2, "utilisateur_id": 2, "type": "Ordinateur de bureau", "modele": "HP EliteDesk 800", "etat": "actif"},
+  {"id": 3, "utilisateur_id": 3, "type": "Imprimante réseau", "modele": "Canon iR2006N", "etat": "en panne"}
+]

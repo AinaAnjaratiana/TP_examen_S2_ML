@@ -1,0 +1,8 @@
+Perte de connexion réseau
+Vérifier d'abord si le problème touche uniquement l'utilisateur ou l'ensemble du bâtiment. Demander à l'utilisateur de redémarrer sa box ou son point d'accès Wi-Fi, puis vérifier l'état du câble réseau et du voyant du commutateur. Si plusieurs utilisateurs sont concernés, il s'agit probablement d'un incident global à escalader vers l'équipe réseau.
+
+Lenteur réseau
+Une lenteur généralisée peut provenir d'une saturation de la bande passante, d'une mise à jour en cours ou d'un problème sur le serveur de fichiers. Consulter l'état des services avant de proposer une solution locale.
+
+Connexion VPN impossible
+Vérifier que les identifiants sont corrects, que le certificat VPN n'est pas expiré et que le service VPN est bien opérationnel côté serveur. En cas de panne du service VPN lui-même, escalader immédiatement vers l'équipe réseau car plusieurs utilisateurs sont probablement impactés.

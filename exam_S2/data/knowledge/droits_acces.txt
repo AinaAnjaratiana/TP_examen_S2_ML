@@ -1,0 +1,5 @@
+Accès à un dossier partagé refusé
+Vérifier que l'utilisateur appartient bien au groupe autorisé pour ce dossier. Toute modification des droits d'accès doit être validée par le responsable du service concerné avant application.
+
+Accès à une application métier refusé
+Vérifier que le compte de l'utilisateur possède la licence et le rôle applicatif nécessaires. La demande de nouveaux droits doit être tracée et validée par un responsable habilité.

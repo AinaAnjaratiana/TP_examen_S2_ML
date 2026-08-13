@@ -1,0 +1,282 @@
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mAIntenance &amp; Assistance</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<header class="header-principal">
+
+    <div class="header-contenu">
+
+        <div class="logo-zone">
+            <div class="logo-icon">IT</div>
+
+            <div>
+                <h1>mAIntenance &amp; Assistance</h1>
+                <p>Assistant intelligent de support informatique — du diagnostic à la résolution</p>
+            </div>
+        </div>
+
+        <nav>
+            <a href="index.html" class="actif">
+                <span class="nav-icon">⌂</span>
+                Assistant
+            </a>
+
+            <a href="dashboard.html">
+                <span class="nav-icon">◫</span>
+                Observabilité
+            </a>
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+
+    <section class="formulaire">
+
+        <div class="section-header">
+            <div>
+                <span class="section-kicker">ASSISTANCE INFORMATIQUE</span>
+                <h2>Décrire votre problème</h2>
+            </div>
+
+            <div class="status-indicator">
+                <span></span>
+                Assistant disponible
+            </div>
+        </div>
+
+
+        <div class="form-grid">
+
+            <div class="form-group">
+                <label for="utilisateur">Utilisateur</label>
+
+                <select id="utilisateur">
+                    <option value="1">Paul Andria</option>
+                    <option value="2">Jean Rakoto</option>
+                    <option value="3">Marie Rabe</option>
+                </select>
+            </div>
+
+
+            <div class="form-group">
+                <label for="equipement">Équipement concerné (optionnel)</label>
+
+                <select id="equipement">
+                    <option value="">-- Aucun / je ne sais pas --</option>
+                    <option value="1">portable</option>
+                    <option value="2">bureau</option>
+                    <option value="3">imprimante</option>
+                    <option value="4">réseau</option>
+                </select>
+            </div>
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="description">Description du problème</label>
+
+            <textarea
+                id="description"
+                rows="4"
+                placeholder="Exemple (portable): Clavier ou souris ne répond plus..."
+            ></textarea>
+             
+
+            <div class="textarea-info">
+                Décrivez le problème avec le plus de détails possible.
+            </div>
+
+        </div>
+
+
+        <button
+            type="button"
+            class="btn-principal"
+            onclick="analyserTicket()"
+        >
+            <span>*</span>
+            Analyser le problème
+        </button>
+
+
+        <p class="suggestions">
+
+            Exemples à tester :
+
+            <button
+                type="button"
+                class="lien"
+                onclick="remplirExemple(1)"
+            >
+                incident courant
+            </button>
+
+            ·
+
+            <button
+                type="button"
+                class="lien"
+                onclick="remplirExemple(2)"
+            >
+                incident urgent
+            </button>
+
+            ·
+
+            <button
+                type="button"
+                class="lien"
+                onclick="remplirExemple(3)"
+            >
+                demande incomplète
+            </button>
+
+            ·
+
+            <button
+                type="button"
+                class="lien"
+                onclick="remplirExemple(4)"
+            >
+                demande sensible
+            </button>
+
+        </p>
+
+    </section>
+
+
+    <div id="chargement" class="hidden chargement">
+
+        <div class="spinner"></div>
+
+        <div>
+            <strong>Analyse en cours...</strong>
+            <span>L'assistant examine votre demande</span>
+        </div>
+
+    </div>
+
+
+    <section id="resultat" class="hidden resultat">
+
+        <div class="section-header">
+
+            <div>
+                <span class="section-kicker">ANALYSE TERMINÉE</span>
+                <h2>Résultat de l'analyse</h2>
+            </div>
+
+        </div>
+
+
+        <div class="grille-badges">
+
+            <div class="badge">
+                <span>Catégorie</span>
+                <strong id="categorie"></strong>
+            </div>
+
+            <div class="badge">
+                <span>Priorité</span>
+                <strong id="priorite"></strong>
+            </div>
+
+            <div class="badge">
+                <span>Équipe</span>
+                <strong id="equipe"></strong>
+            </div>
+
+            <div class="badge">
+                <span>Confiance</span>
+                <strong id="confiance"></strong>
+            </div>
+
+            <div class="badge">
+                <span>Décision</span>
+                <strong id="action"></strong>
+            </div>
+
+        </div>
+
+
+        <p id="securite" class="securite"></p>
+
+
+        <div class="resultat-bloc">
+
+            <h3>Diagnostic</h3>
+
+            <p id="diagnostic"></p>
+
+        </div>
+
+
+        <div class="resultat-bloc">
+
+            <h3>Étapes de résolution proposées</h3>
+
+            <ul id="etapes"></ul>
+
+        </div>
+
+
+        <div class="resultat-bloc">
+
+            <h3>Informations manquantes / Questions</h3>
+
+            <ul id="questions"></ul>
+
+        </div>
+
+
+        <div class="resultat-bloc">
+
+            <h3>Sources consultées (RAG)</h3>
+
+            <ul id="sources"></ul>
+
+        </div>
+
+
+        <div class="resultat-bloc">
+
+            <h3>Outils appelés par l'agent</h3>
+
+            <ul id="outils"></ul>
+
+        </div>
+
+
+        <div class="resultat-bloc">
+
+            <h3>Journal de traitement</h3>
+
+            <ul id="logs"></ul>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
+```
